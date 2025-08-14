@@ -1,21 +1,20 @@
 # Rapid Prototype AI Project (Streamlit)
 
-Rapid Prototype AI Project (Streamlit) เป็นโปรเจกต์สำหรับทดสอบและสร้างต้นแบบ (prototype) บน AI ผ่านเว็บแอปที่สร้างด้วย **Streamlit** ด้วย Python อย่างง่ายและรวดเร็ว
+Rapid Prototype AI Project (for Streamlit) is a project to test prototypes of AI through web apps with **Streamlit** using Python in a simple way.
+---
+
+##  File structure
+
+- **app.py** – Streamlit web app core files
+- **requirements.txt** – List of dependencies required by the project
 
 ---
 
-##  โครงสร้างไฟล์
+##  Features
 
-- **app.py** – ไฟล์หลักของเว็บแอป Streamlit
-- **requirements.txt** – รายชื่อ dependencies ที่โปรเจกต์ต้องใช้
-
----
-
-##  คุณสมบัติหลัก (Features)
-
-1. รันเว็บแอปที่พัฒนาโดยใช้ Python ผ่านคำสั่ง `streamlit`
-2. รองรับการทดลองตัวอย่างหรือโมเดล AI ได้อย่างรวดเร็ว ไม่ต้องเขียนโค้ด frontend
-3. มีโครงสร้างที่เรียบง่าย เหมาะสำหรับ prototype และทดสอบไอเดียเร็ว ๆ
+1. Run web apps developed using Python via commands `streamlit`
+2. Supports rapid experimentation of samples or AI models without writing frontend code.
+3. It has a simple structure, suitable for prototyping and testing ideas quickly.
 
 ---
 
@@ -45,7 +44,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-# 4. Run on Streamlit
+# 4. Run web apps via Streamlit
 ```bash
 streamlit run app.py
 ```
