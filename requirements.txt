@@ -1,0 +1,7 @@
+streamlit>=1.36
+opencv-python
+numpy
+pillow
+matplotlib
+requests
+streamlit-webrtc
